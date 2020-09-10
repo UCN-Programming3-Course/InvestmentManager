@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Investments\Boat.cs" />
     <Compile Include="Investments\House.cs" />
+    <Compile Include="Investments\IInvestment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InvestmentManager.Investments
 {
-    public class Boat
+    public class Boat : IInvestment
     {
         public int Length { get; set; }
         public int MeterPrice { get; set; }
@@ -23,7 +23,7 @@ namespace InvestmentManager.Investments
             RegYear = regYear;
         }
 
-        public int CalculatePrice()
+        public int PriceCalculate()
         {
             int foundPrice = Length * MeterPrice;
             return foundPrice;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InvestmentManager.Investments
 {
-    public class House
+    public class House : IInvestment
     {
         public string Address { get; set; }
         public int SquareMeters { get; set; }
